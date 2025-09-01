@@ -11,7 +11,7 @@ import PHOENIX from "../assets/planes/2014phoenix.jpeg";
 import ZEPHYRUS from "../assets/planes/2013.png";
 import MARUT from "../assets/planes/2012marut.jpeg";
 import ASTRA from "../assets/planes/astra-2025.png"
-import NIMBUS from "../assets/planes/nimbus-2024.png"
+import NIMBUS from "../assets/planes/Nimbus-2024.png"
 
 const achievements = [
   {
