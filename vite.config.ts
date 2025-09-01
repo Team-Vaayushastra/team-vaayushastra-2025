@@ -4,9 +4,8 @@ import { defineConfig } from "vite";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/",
   plugins: [react()],
-  base: '/Vaayu-Website/'
+  base: '/Vaayu-Website/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
