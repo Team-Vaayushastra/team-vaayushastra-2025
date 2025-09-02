@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <button
           className="mt-6 px-6 py-3 bg-gradient-to-r from-blue-700 to-purple-600 rounded-lg hover:-translate-y-1 transition cursor-pointer text-sm md:text-base"
-          onClick={() => navigate("/planes")}
+          onClick={() => navigate("/Vaayu-Website/planes")}
         >
           <p className="font-semibold text-white">Click to see our Planes</p>
         </button>

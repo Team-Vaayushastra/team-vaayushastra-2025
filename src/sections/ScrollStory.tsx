@@ -10,22 +10,19 @@ const ScrollStory = () => {
   const scrollTimeout = useRef<NodeJS.Timeout | null>(null);
 
   const handleWheel = (e: React.WheelEvent) => {
-    e.preventDefault();
     if (scrollTimeout.current) return;
 
     if (e.deltaY > 0) {
-      // scroll down → next department
       setActiveIndex((prev) => Math.min(prev + 1, sections.length - 1));
     } else {
-      // scroll up → previous department
       setActiveIndex((prev) => Math.max(prev - 1, 0));
     }
 
-    // Add a short delay to slow down scroll
     scrollTimeout.current = setTimeout(() => {
       scrollTimeout.current = null;
     }, 600);
   };
+
 
   const activeSection = sections[activeIndex];
 
@@ -80,7 +77,9 @@ const ScrollStory = () => {
 
           {/* CTA Button */}
           <button
-            onClick={() => navigate(`/departments/${activeSection.id}`)}
+            onClick={() =>
+              navigate(`/Vaayu-Website/departments/${activeSection.id}`)
+            }
             className="mt-auto px-3 py-1.5 md:px-4 md:py-3 bg-gradient-to-r from-black to-purple-600 text-white font-semibold rounded-lg hover:opacity-90 transition md:text-sm text-xs"
           >
             Explore Department

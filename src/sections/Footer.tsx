@@ -19,13 +19,13 @@ const Footer = () => {
             Team Vaayushastra
           </h2>
           <a
-            href="/about"
+            href="/Vaayu-Website/about"
             className="md:text-sm text-xs text-gray-400 hover:text-white transition"
           >
             About
           </a>
           <a
-            href="/support-us"
+            href="/Vaayu-Website/support-us"
             className="md:text-sm text-xs text-gray-400 hover:text-white transition"
           >
             Support

@@ -64,7 +64,9 @@ type GLTFResult = GLTF & {
 }
 
 export default function Model(props: JSX.IntrinsicElements["group"]) {
-  const { nodes, materials } = useGLTF("/scene.gltf") as unknown as GLTFResult
+  const { nodes, materials } = useGLTF(
+    "/Vaayu-Website/scene.gltf"
+  ) as unknown as GLTFResult;
   return (
     <group {...props} dispose={null}>
       <group position={[0, 0.065, 0.141]} rotation={[-1.658, 0, 0]}>
@@ -110,4 +112,4 @@ export default function Model(props: JSX.IntrinsicElements["group"]) {
   )
 }
 
-useGLTF.preload("/scene.gltf")
+useGLTF.preload("/Vaayu-Website/scene.gltf");
