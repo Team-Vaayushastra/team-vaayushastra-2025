@@ -59,7 +59,7 @@ const SupportUs = () => {
 
           <div className="mt-8 text-center">
             <a
-              href="/brochure.pdf"
+              href="/Vaayu-Website/brochure.pdf"
               className="inline-block px-6 py-3 bg-gradient-to-r from-blue-500 to-purple-600 text-white font-semibold rounded-lg hover:opacity-90 transition"
               download
             >
