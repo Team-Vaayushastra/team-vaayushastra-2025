@@ -2,6 +2,7 @@ import Insta from "../assets/social-media/instagram.svg"
 import Twitter from "../assets/social-media/twitter.svg"
 import Fb from "../assets/social-media/facebook.svg"
 import In from "../assets/social-media/linkedin.svg"
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
@@ -18,24 +19,24 @@ const Footer = () => {
           <h2 className="md:text-xl text-lg  font-semibold">
             Team Vaayushastra
           </h2>
-          <a
-            href="/Vaayu-Website/about"
+          <Link
+            to="/Vaayu-Website/about"
             className="md:text-sm text-xs text-gray-400 hover:text-white transition"
           >
             About
-          </a>
-          <a
-            href="/Vaayu-Website/support-us"
+          </Link>
+          <Link
+            to="/Vaayu-Website/support-us"
             className="md:text-sm text-xs text-gray-400 hover:text-white transition"
           >
             Support
-          </a>
-          <a
-            href="#contact-us"
+          </Link>
+          <Link
+            to="#contact-us"
             className="md:text-sm text-xs text-gray-400 hover:text-white transition"
           >
             Contact
-          </a>
+          </Link>
         </div>
 
         {/* Right */}
