@@ -12,6 +12,7 @@ import ZEPHYRUS from "../assets/planes/2013.png";
 import MARUT from "../assets/planes/2012marut.jpeg";
 import ASTRA from "../assets/planes/astra-2025.png"
 import NIMBUS from "../assets/planes/Nimbus-2024.png"
+import BUMBBLEBEE from "../assets/planes/2023Bumblebee.jpg"
 
 const achievements = [
   {
@@ -25,6 +26,12 @@ const achievements = [
     title: "NIMBUS (2023–24)",
     description:
       "Riding the storm with thunderous energy, NIMBUS drifts high above the rest, striking with power when least expected. The team ranked 13th globally",
+  },
+  {
+    image: BUMBBLEBEE,
+    title: "BUMBLEBEE (2022–23)",
+    description:
+      "Buzzing through the skies with agile precision, BUMBLEBEE hovers and strikes with fierce determination. The team ranked 11th globally.",
   },
   {
     image: MOLTRES,
