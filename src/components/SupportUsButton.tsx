@@ -4,7 +4,7 @@ import SupportIcon from "../assets/support-btn.png";
 
 const SupportUsButton = () => {
   return (
-    <Link to="/Vaayu-Website/support-us">
+    <Link to="/team-vaayushastra-2025/support-us">
       <div
         className="fixed bottom-8 right-10 w-16 h-16 bg-white/15 backdrop-blur rounded-full shadow-lg flex items-center justify-center hover:scale-110 transition-transform"
         aria-label="Support Us"

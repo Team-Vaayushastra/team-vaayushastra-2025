@@ -10,7 +10,7 @@ export default function Navbar() {
   return (
     <nav className="fixed top-0 left-0 w-full z-50 bg-black/50 backdrop-blur shadow-lg p-2">
       <div className="flex justify-between items-center px-6 py-3 text-white">
-        <Link to="/Vaayu-Website/" className="flex items-center">
+        <Link to="/team-vaayushastra-2025/" className="flex items-center">
           <img src={Logo} alt="Logo" className="w-10 h-10 mr-2" />
           <h1 className="text-lg font-semibold font-montserrat">
             Team Vaayushastra
@@ -21,7 +21,7 @@ export default function Navbar() {
         <ul className="hidden md:flex items-center gap-6">
           <li>
             <Link
-              to="/Vaayu-Website/"
+              to="/team-vaayushastra-2025/"
               className="hover:text-sky-300 transition-colors"
             >
               Home
@@ -45,21 +45,21 @@ export default function Navbar() {
             {open && (
               <div className="absolute top-full mt-2 w-48 bg-black/30 backdrop-blur-md shadow-lg rounded-md p-3 z-70">
                 <Link
-                  to="/Vaayu-Website/departments/avionics"
+                  to="/team-vaayushastra-2025/departments/avionics"
                   className="block px-2 py-1 rounded hover:bg-white/10 transition"
                   onClick={() => setOpen(false)}
                 >
                   Avionics
                 </Link>
                 <Link
-                  to="/Vaayu-Website/departments/design"
+                  to="/team-vaayushastra-2025/departments/design"
                   className="block px-2 py-1 rounded hover:bg-white/10 transition"
                   onClick={() => setOpen(false)}
                 >
                   Design
                 </Link>
                 <Link
-                  to="/Vaayu-Website/departments/media_marketing"
+                  to="/team-vaayushastra-2025/departments/media_marketing"
                   className="block px-2 py-1 rounded hover:bg-white/10 transition"
                   onClick={() => setOpen(false)}
                 >
@@ -71,7 +71,7 @@ export default function Navbar() {
 
           <li>
             <Link
-              to="/Vaayu-Website/planes"
+              to="/team-vaayushastra-2025/planes"
               className="hover:text-sky-400 transition-colors"
             >
               Planes
@@ -84,7 +84,7 @@ export default function Navbar() {
           </li> */}
           <li>
             <Link
-              to="/Vaayu-Website/support-us"
+              to="/team-vaayushastra-2025/support-us"
               className="hover:text-sky-400 transition-colors"
             >
               Support Us
@@ -111,7 +111,7 @@ export default function Navbar() {
           <ul className="flex flex-col gap-4 text-white">
             <li>
               <Link
-                to="/Vaayu-Website/"
+                to="/team-vaayushastra-2025/"
                 className="hover:text-sky-300 transition-colors"
               >
                 Home
@@ -124,21 +124,21 @@ export default function Navbar() {
                   <ChevronDown className="w-4 h-4 group-open:rotate-180 transition-transform" />
                 </summary>
                 <Link
-                  to="/Vaayu-Website/departments/avionics"
+                  to="/team-vaayushastra-2025/departments/avionics"
                   className="block px-2 py-1 rounded hover:bg-white/10 transition"
                   onClick={() => setMobileMenu(!mobileMenu)}
                 >
                   Avionics
                 </Link>
                 <Link
-                  to="/Vaayu-Website/departments/design"
+                  to="/team-vaayushastra-2025/departments/design"
                   className="block px-2 py-1 rounded hover:bg-white/10 transition"
                   onClick={() => setMobileMenu(!mobileMenu)}
                 >
                   Design
                 </Link>
                 <Link
-                  to="/Vaayu-Website/departments/media_marketing"
+                  to="/team-vaayushastra-2025/departments/media_marketing"
                   className="block px-2 py-1 rounded hover:bg-white/10 transition"
                   onClick={() => setMobileMenu(!mobileMenu)}
                 >
@@ -148,7 +148,7 @@ export default function Navbar() {
             </li>
             <li>
               <Link
-                to="/Vaayu-Website/planes"
+                to="/team-vaayushastra-2025/planes"
                 className="hover:text-sky-400 transition-colors"
               >
                 Planes
@@ -161,7 +161,7 @@ export default function Navbar() {
             </li> */}
             <li>
               <Link
-                to="/Vaayu-Website/support-us"
+                to="/team-vaayushastra-2025/support-us"
                 className="hover:text-sky-400 transition-colors"
               >
                 Support Us

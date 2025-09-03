@@ -8,11 +8,11 @@ import DepartmentPage from "./pages/Departments";
 function AppRoutes() {
   return (
     <Routes>
-      <Route path="/Vaayu-Website/" element={<Home />} />
-      <Route path="/Vaayu-Website/about" element={<About />} />
-      <Route path="/Vaayu-Website/departments/:slug" element={<DepartmentPage />} />
-      <Route path="/Vaayu-Website/support-us" element={<Support />} />
-      <Route path="/Vaayu-Website/planes" element={<Planes />} />
+      <Route path="/team-vaayushastra-2025/" element={<Home />} />
+      <Route path="/team-vaayushastra-2025/about" element={<About />} />
+      <Route path="/team-vaayushastra-2025/departments/:slug" element={<DepartmentPage />} />
+      <Route path="/team-vaayushastra-2025/support-us" element={<Support />} />
+      <Route path="/team-vaayushastra-2025/planes" element={<Planes />} />
     </Routes>
   );
 }

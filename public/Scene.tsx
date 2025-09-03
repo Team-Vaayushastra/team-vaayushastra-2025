@@ -65,7 +65,7 @@ type GLTFResult = GLTF & {
 
 export default function Model(props: JSX.IntrinsicElements["group"]) {
   const { nodes, materials } = useGLTF(
-    "/Vaayu-Website/scene.gltf"
+    "/team-vaayushastra-2025/scene.gltf"
   ) as unknown as GLTFResult;
   return (
     <group {...props} dispose={null}>
@@ -112,4 +112,4 @@ export default function Model(props: JSX.IntrinsicElements["group"]) {
   )
 }
 
-useGLTF.preload("/Vaayu-Website/scene.gltf");
+useGLTF.preload("/team-vaayushastra-2025/scene.gltf");

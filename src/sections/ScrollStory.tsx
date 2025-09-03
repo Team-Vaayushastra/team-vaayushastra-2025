@@ -78,7 +78,9 @@ const ScrollStory = () => {
           {/* CTA Button */}
           <button
             onClick={() =>
-              navigate(`/Vaayu-Website/departments/${activeSection.id}`)
+              navigate(
+                `/team-vaayushastra-2025/departments/${activeSection.id}`
+              )
             }
             className="mt-auto px-3 py-1.5 md:px-4 md:py-3 bg-gradient-to-r from-black to-purple-600 text-white font-semibold rounded-lg hover:opacity-90 transition md:text-sm text-xs"
           >
