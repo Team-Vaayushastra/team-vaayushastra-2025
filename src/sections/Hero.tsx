@@ -46,7 +46,7 @@ const Hero = () => {
           >
             <button
               className="mt-6 px-6 py-3 bg-gradient-to-r from-blue-700 to-purple-600 hover:-translate-y-1 rounded-lg hover:bg-blue-700 transition cursor-pointer text-sm md:text-base"
-              onClick={() => navigate("/team-vaayushastra-2025/about")}
+              onClick={() => navigate("/about")}
             >
               Know More
             </button>
