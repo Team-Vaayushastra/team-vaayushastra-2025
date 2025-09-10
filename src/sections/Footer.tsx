@@ -32,7 +32,7 @@ const Footer = () => {
             Support
           </Link>
           <Link
-            to="#contact-us"
+            to="/#contact-us"
             className="md:text-sm text-xs text-gray-400 hover:text-white transition"
           >
             Contact

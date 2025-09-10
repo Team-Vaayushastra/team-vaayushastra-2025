@@ -15,28 +15,46 @@ const About = () => {
       <SplashCursor />
 
       {/* Hero Section */}
-      <section className="h-screen flex flex-col justify-center items-center text-center gap-6 px-4 md:px-0">
-        <h1 className="text-5xl md:text-6xl font-bold text-sky-400">
-          Team Vaayushastra
-        </h1>
-        <p className="text-xl md:text-2xl text-gray-300">FR CRCE Team</p>
-        <p className="text-lg md:text-xl max-w-2xl">
-          Our motive is to inspire innovation, teamwork, and excellence in
-          aerospace engineering competitions.
-        </p>
-        <p className="text-lg md:text-xl max-w-2xl">
-          Team Vaayushastra was established in the year 2012 to represent Fr.
-          Conceicao Rodrigues College of Engineerin in the SAE Aero Design
-          Competition. Since that year, we have participated annually in the
-          advanced class of the SAE Aero Design Competition, held in the United
-          States, 9 times.
-        </p>
-        <p className="text-lg md:text-xl max-w-2xl">
-          We have been one of the most consistent teams by finishing in the
-          worldwide top 10 rankings, 7 times. The team is formed by 30
-          undergraduate students from different departments of the college who
-          have the aptitude and interest conducive to the competition.
-        </p>
+      <section className="relative h-screen flex items-center justify-center overflow-hidden bg-black text-center px-6">
+        <div className="absolute w-[800px] h-[800px] rounded-full bg-gradient-to-r from-sky-500/30 to-blue-700/20 blur-3xl animate-pulse-slow" />
+        <div className="absolute w-[500px] h-[500px] rounded-full border border-sky-500/30 animate-spin-slow" />
+        <div className="absolute w-[300px] h-[300px] rounded-full border border-blue-400/40 animate-spin-slower" />
+
+        <div className="relative z-10 max-w-3xl flex flex-col gap-6">
+          <h1 className="text-6xl md:text-7xl font-extrabold text-blue-500 drop-shadow-xl">
+            Team Vaayushastra
+          </h1>
+
+          <p className="text-xl md:text-2xl text-gray-300 font-medium tracking-wide">
+            FR CRCE Aero Design Team
+          </p>
+
+          <p className="text-lg md:text-xl text-gray-300 leading-relaxed">
+            Inspiring{" "}
+            <span className="text-sky-400 font-semibold">innovation</span>,{" "}
+            <span className="text-sky-400 font-semibold">teamwork</span>, and{" "}
+            <span className="text-sky-400 font-semibold">excellence</span> in
+            aerospace competitions since 2012.
+          </p>
+
+          <p className="text-lg md:text-xl text-gray-400 leading-relaxed">
+            With{" "}
+            <span className="text-sky-400 font-semibold">
+              7 global Top 10 finishes
+            </span>
+            , our 30-member team continues to push the boundaries of
+            student-driven aerospace engineering.
+          </p>
+
+          <div className="flex justify-center gap-4 mt-6">
+            <a
+              href="/#contact-us"
+              className="px-8 py-3 rounded-full bg-gradient-to-r from-blue-700 to-purple-600 hover:-translate-y-1 text-white font-semibold shadow-lg transition"
+            >
+              Contact Us
+            </a>
+          </div>
+        </div>
       </section>
 
       {/* Team Members Section */}
