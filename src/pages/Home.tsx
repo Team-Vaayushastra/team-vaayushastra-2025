@@ -1,5 +1,5 @@
 // src/pages/Home.tsx
-import { ChartLineDots } from "@/components/LineChart";
+// import { ChartLineDots } from "@/components/LineChart";
 import Navbar from "@/components/Navbar";
 import SupportUsButton from "@/components/SupportUsButton";
 import Competitions from "@/sections/Competitions";
@@ -30,7 +30,7 @@ export default function Home() {
         </div>
         <button
           className="mt-6 px-6 py-3 bg-gradient-to-r from-blue-700 to-purple-600 rounded-lg hover:-translate-y-1 transition cursor-pointer text-sm md:text-base"
-          onClick={() => navigate("/team-vaayushastra-2025/planes")}
+          onClick={() => navigate("/planes")}
         >
           <p className="font-semibold text-white">Click to see our Planes</p>
         </button>
