@@ -1,6 +1,6 @@
 import Navbar from "@/components/Navbar";
 import Footer from "@/sections/Footer";
-import Scanner from "../assets/craigQR.jpg";
+import Scanner from "../assets/craigQR.jpg";  //first add the scanner image in the src/assets folder and then import it here
 import Benefits from "@/sections/Benefits";
 
 const SupportUs = () => {
@@ -20,11 +20,11 @@ const SupportUs = () => {
               </h2>
               <div className="flex items-center space-x-4 flex flex-col gap-2">
                 <img
-                  src={Scanner}
+                  src={Scanner} //once you import the image it will be changes automatically
                   alt="Scanner"
                   className="w-50 h-50 object-cover rounded-sm"
                 />
-                <div>
+                <div> // change the details here accordingly
                   <p className="text-lg font-medium">Craig Prakash Zalake</p>
                   <p className="text-sm text-gray-500">
                     UPI ID: zalake04@oksbi
@@ -33,7 +33,7 @@ const SupportUs = () => {
               </div>
             </div>
 
-            <div className="w-full bg-white/10 backdrop-blur-md text-white p-6 rounded-lg shadow-lg mb-8">
+            <div className="w-full bg-white/10 backdrop-blur-md text-white p-6 rounded-lg shadow-lg mb-8"> // same here
               <h2 className="text-2xl font-semibold mb-14 text-center">
                 Bank Details
               </h2>

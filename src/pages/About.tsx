@@ -4,9 +4,9 @@ import Navbar from "@/components/Navbar";
 import SupportUsButton from "@/components/SupportUsButton";
 import Footer from "@/sections/Footer";
 import TeamGallery from "@/sections/TeamGallery";
-import Team2024 from "../assets/group-photos/2024/team pic.jpg";
+import Team2024 from "../assets/group-photos/2024/team pic.jpg"; // add more team photos here
 
-const galleryImages = [Team2024];
+const galleryImages = [Team2024]; // add them in this array it will be displayedon the about page
 
 const About = () => {
   return (
