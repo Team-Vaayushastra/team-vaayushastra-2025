@@ -16,23 +16,27 @@ import Media from "../assets/department-assets/mm/media.jpg";
 // team members
 //avionics
 import Muzzammil from "../assets/team-members/avionics/muzzammil.jpg" 
-import Craig from "../assets/team-members/avionics/craig.jpg" 
-import Sarah from "../assets/team-members/avionics/sarah.jpg"
-import Aish from "../assets/team-members/avionics/aishh.png"
+import Ken from "../assets/team-members/avionics/ken.jpeg"
+import Shaina from "../assets/team-members/avionics/shaina.jpeg"
+import Jaden from "../assets/team-members/avionics/jaden.jpeg"
+// import Craig from "../assets/team-members/avionics/craig.jpg" 
+// import Sarah from "../assets/team-members/avionics/sarah.jpg"
+// import Aish from "../assets/team-members/avionics/aishh.png"
 
 // design
 import Meghna from "../assets/team-members/design/meghna.jpg"
-import Vandan from "../assets/team-members/design/vandan.jpg"
-import Shahid from "../assets/team-members/design/shahid.jpg"
-import Vedang from "../assets/team-members/design/vedang.jpg"
-import Yash from "../assets/team-members/design/yash.jpg"
-import Sana from "../assets/team-members/design/sana.jpg"
-import Rion from "../assets/team-members/design/rion.jpg"
-import Poorvi from "../assets/team-members/design/poorvi.jpg"
+import Harshal from "../assets/team-members/design/harshal.jpeg"
+// import Vandan from "../assets/team-members/design/vandan.jpg"
+// import Shahid from "../assets/team-members/design/shahid.jpg"
+// import Vedang from "../assets/team-members/design/vedang.jpg"
+// import Yash from "../assets/team-members/design/yash.jpg"
+// import Sana from "../assets/team-members/design/sana.jpg"
+// import Rion from "../assets/team-members/design/rion.jpg"
+// import Poorvi from "../assets/team-members/design/poorvi.jpg"
 
 //m-m
-import Ayush from "../assets/team-members/mm/ayush.jpg"
-import Adriana from "../assets/team-members/mm/adriana.jpg"
+// import Ayush from "../assets/team-members/mm/ayush.jpg"
+// import Adriana from "../assets/team-members/mm/adriana.jpg"
 
 export type DepartmentContent = {
   id: string;
@@ -79,10 +83,10 @@ export const departmentData: Record<string, DepartmentContent> = {
       },
     ],
     team: [
-      { name: "Craig Zalake", role: "Captain", image: Craig },
-      { name: "Sarah Ger", role: "Vice-Captain", image: Sarah },
-      { name: "Aishwarya Sreejith", role: "Avionics Head", image: Aish },
-      { name: "Muzzammil", role: "Avionics Member", image: Muzzammil },
+      { name: "Muzzammil", role: "Avionics Head", image: Muzzammil },
+      { name: "Ken", role: "Avionics Member", image: Ken },
+      { name: "Shaina", role: "Avionics Member", image: Shaina },
+      { name: "Jaden", role: "Avionics Member", image: Jaden },
     ],
     subDepartments: [
       {
@@ -131,14 +135,8 @@ export const departmentData: Record<string, DepartmentContent> = {
       },
     ],
     team: [
-      { name: "Vedang Amberkar", role: "Team Manager", image: Vedang },
-      { name: "Rion Dmello", role: "Design Head", image: Rion },
-      { name: "Shahid Khan", role: "Manufacturing Head", image: Shahid },
-      { name: "Yash", role: "Design Member", image: Yash },
-      { name: "Meghna", role: "Design Member", image: Meghna },
-      { name: "Vandan", role: "Design Member", image: Vandan },
-      { name: "Sana", role: "Design Member", image: Sana },
-      { name: "Poorvi", role: "Design Member", image: Poorvi },
+      { name: "Meghna", role: "Vice Captain", image: Meghna },
+      { name: "Harshal", role: "Design Member", image: Harshal },
     ],
     subDepartments: [
       {
@@ -186,8 +184,12 @@ export const departmentData: Record<string, DepartmentContent> = {
       },
     ],
     team: [
-      { name: "Ayush Kude", role: "Media-Marketing Head", image: Ayush },
-      { name: "Adriana", role: "Media-Marketing Member", image: Adriana },
+      { name: "Muzzammil", role: "Media & Marketing Member", image: Muzzammil },
+      { name: "Meghna", role: "Media & Marketing Member", image: Meghna },
+      { name: "Ken", role: "Media & Marketing Member", image: Ken },
+      { name: "Shaina", role: "Media & Marketing Member", image: Shaina },
+      { name: "Jaden", role: "Media & Marketing Member", image: Jaden },
+      { name: "Harshal", role: "Media & Marketing Member", image: Harshal },
     ],
     subDepartments: [
       {
