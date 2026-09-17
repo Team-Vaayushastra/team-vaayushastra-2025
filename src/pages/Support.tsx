@@ -24,7 +24,7 @@ const SupportUs = () => {
                   alt="Scanner"
                   className="w-50 h-50 object-cover rounded-sm"
                 />
-                <div> // change the details here accordingly
+                <div>
                   <p className="text-lg font-medium">Craig Prakash Zalake</p>
                   <p className="text-sm text-gray-500">
                     UPI ID: zalake04@oksbi
@@ -33,7 +33,7 @@ const SupportUs = () => {
               </div>
             </div>
 
-            <div className="w-full bg-white/10 backdrop-blur-md text-white p-6 rounded-lg shadow-lg mb-8"> // same here
+            <div className="w-full bg-white/10 backdrop-blur-md text-white p-6 rounded-lg shadow-lg mb-8">
               <h2 className="text-2xl font-semibold mb-14 text-center">
                 Bank Details
               </h2>
